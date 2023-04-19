@@ -99,6 +99,9 @@ let acceptanceHeader = document.querySelector("#questions-table > thead > tr > t
 acceptanceHeader.addEventListener("click", function () {
     var newSortedObjArray = sortByVolume(objArray)
     populateDetails(newSortedObjArray)
+
+    // to populate without sorting
+    // populateDetails(objArray)
 })
 
 // populateDetails(newObjArray)
